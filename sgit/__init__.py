@@ -13,7 +13,7 @@ from .custom import GitCustomCommand, GitCustomOutputCommand
 
 from .diff import (GitDiffCommand, GitDiffCachedCommand, GitDiffRefreshCommand, GitDiffMoveCommand,
                    GitDiffChangeHunkSizeCommand, GitDiffStageUnstageHunkCommand, GitDiffCurrentFileCommand,
-                   GitDiffCachedCurrentFileCommand, GitDiffDiscardHunkCommand, GitDiffOpenFileAtHunkCommand, GitDiffEventListener)
+                   GitDiffCachedCurrentFileCommand, GitDiffDiscardHunkCommand, GitDiffOpenFileAtHunkCommand, GitDiffEditHunkCommand, GitDiffEventListener)
 
 from .show import GitShowCommand, GitShowRefreshCommand
 
